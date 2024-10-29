@@ -4,8 +4,9 @@
   "description": "NodeJS Serverless Framework",
   "main": "index.js",
   "scripts": {
+    "pd": "node elements/progress_and_dotenv.js CUSTOM_ARG=dev",
     "dev": "nodemon node index.js CUSTOM_ARG=dev",
-    "build": "cross-env NODE_ENV=prod node index.js",
+    "build": "cross-env NODE_ENV=production node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
