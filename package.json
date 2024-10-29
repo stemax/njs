@@ -1,0 +1,22 @@
+{
+  "name": "njs",
+  "version": "1.0.0",
+  "description": "NodeJS Serverless Framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon node index.js CUSTOM_ARG=dev",
+    "build": "cross-env NODE_ENV=prod node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
