@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 
-dotenv.config()
+dotenv.config();
 console.info('Running NodeJS serverless framework: ', process.pid);
 console.info('On Port: ', process.env.PORT || '-');
 console.info('Mode: ', process.env.NODE_ENV || '-');
@@ -13,5 +13,5 @@ if (Math.random() > 0.5) {
 
 } else {
     console.warn('Emergency app exit running...');
-    process.exit()
+    process.exit();
 }
